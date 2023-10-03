@@ -1,0 +1,53 @@
+.food{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 8px;
+}
+.food h3{
+    text-transform: capitalize;
+}
+
+.image{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food span{
+    font-size: 36px;
+    color: rgb(4, 187, 4);
+    font-weight: bold;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.edite{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    background: rgb(255, 150, 52);
+    color: #333;
+    margin-top: 10px;
+}
+.delete{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(255, 166, 0);
+    background: #333;
+    border-radius: 0;
+    padding: 6px 8px;
+    margin-top: 10px;
+
+}
+
+
+@media(max-width:425px){
+    .image{
+        width: 350px;
+    }
+}
